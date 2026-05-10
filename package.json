@@ -5,8 +5,8 @@
   "type": "module",
   "license": "AGPL-3.0-only",
   "scripts": {
-    "dev": "bunx --bun vite --host",
-    "build": "bunx --bun vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "bunx --bun vite preview --host",
     "typecheck": "tsc --noEmit",
     "showcase:grid": "node scripts/combine-showcase-grid.mjs"
